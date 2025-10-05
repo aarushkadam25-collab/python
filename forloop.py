@@ -1,10 +1,5 @@
-n=int(input("enter a number"))
-i=1
-sum=0
+number = input("Enter a number: ")
+num_digits = len(number)
+print("The number of digits is:", num_digits)
 
-while i < n:
-
-    sum= sum+i
-    print("sum is", sum)
-    i= i+1
 
